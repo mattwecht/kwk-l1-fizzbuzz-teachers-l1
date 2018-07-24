@@ -7,8 +7,11 @@ def fizzbuzz (int)
     s = s+ "Fizz" # Go fizz
   end
   if int % 5 == 0
-  s = s+ "Buzz"
+    s = s+ "Buzz"
   end
+  
+  else
+    return nil
   
   return s
 end
